@@ -9,7 +9,8 @@
 
 ## :rocket: INTRODUÇÃO
 
-Repositório de projetos desenvolvidos através de vídeos do Youtube e Bootcamp da Rocketseat
+Repositório de projetos desenvolvidos através de conteúdos da Rocketseat.
+
 
 ## :rocket: LISTA DE PROJETOS
 
@@ -18,7 +19,7 @@ Repositório de projetos desenvolvidos através de vídeos do Youtube e Bootcamp
 #### :memo: Descrição do Projeto
 
 
-A aplicação "Casa Criativa: Ideias para a crise", tem como objetivo inserir e armazenar ideias de atividades que podem ser realizadas durante a quarentena do COVID-19.
+O projeto desenvolvido foi o site "Casa Criativa: Ideias para a crise", que tem como objetivo inserir e armazenar ideias de atividades que podem ser realizadas durante a quarentena do COVID-19.
 
 
 ---
@@ -27,7 +28,7 @@ A aplicação "Casa Criativa: Ideias para a crise", tem como objetivo inserir e 
 
 #### :memo: Descrição do Projeto
 
-Essa aplicação se chama DOE, e tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue.
+O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue e armazenar em uma base de dados.
 
 
 ---
@@ -37,7 +38,7 @@ Essa aplicação se chama DOE, e tem como objetivo realizar o cadastramento de v
 
 #### :memo: Descrição do Projeto
 
-A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um local para busca de empresas que coletem resíduos recicláveis e que precisam de descarte em locais próprios. E onde empresas de coletas de resíduos através do site realizem cadastro.
+A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um local para busca de empresas que coletem resíduos recicláveis e que precisam de descarte em locais próprios. E onde essas empresas de coletas de resíduos através do site irão realizar o cadastro.
 
 ---
 
@@ -48,9 +49,4 @@ A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um loc
 	Copyright (c) 2020 Edvan Ribeiro
     <br/>
     Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/ejunior01/ecoleta_nlw/blob/master/LICENSE">LICENSE</a> para mais detalhes.
-</p>
-
-
-<p align="center">
-    <img width="100%" height="80px" alt="Logo Casa Criativa" src="./design/trofeu-home.svg" />
 </p>
