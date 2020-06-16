@@ -1,0 +1,200 @@
+/***************************************************
+                    GLOBAL
+***************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    /*corrigindo comportamento padrão do css*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crete Round', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header, main, footer{
+    text-align: center;
+}
+
+header, .form, main {
+    margin-bottom: 40px;
+}
+
+/***************************************************
+                    CONTAINER
+***************************************************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    max-width: 600px;
+    height: 100vh;
+}
+
+
+/***************************************************
+                    HEADER
+***************************************************/
+
+.logo, .info, .cadastro {
+    margin-top: 25px;
+} 
+.logo img {
+    width: 130px;
+}
+
+.info h1 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+header button {
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border:none;
+    background: #ff4f4f;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+/***************************************************
+                    MAIN
+***************************************************/
+
+
+main h2 span {
+    color: #ff4f4f;
+}
+
+.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.blood {
+    color: #ff4f4f;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+.blood::before {
+    content: "";
+    background: #ff4f4f55;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    transform: rotate(-45deg);
+    padding:2px;
+    
+}
+
+.donor p {
+    margin-top: 24px;
+    font-size: 12pt;
+}
+
+/***************************************************
+                    SECTION
+***************************************************/
+.form h2 {
+    text-align: right;
+    color: #eee;
+    font-size: 25px;
+}
+
+.form{
+    margin-bottom: 50px;
+}
+
+section.form {
+    /*utilizando display no formato grid*/
+    display: grid;
+    /* colocando os elementos em colunas*/
+    grid-template-columns: 1fr 1fr;
+    /*espaçamento entre as colunas do grid*/
+    gap: 50px;
+    /*alinhar itens ao centro da box*/
+    align-items:center;
+
+    border-radius: 15px;
+    background: #ff4f4f;
+    padding: 16px 64px;
+}
+
+form input,
+form button {
+    /*largura*/
+    width: 100%;
+    /*espaçamentos*/
+    margin-bottom: 4px;
+
+    /*preenchimento*/
+    padding: 8px 16px;
+    /*bordas*/
+    border-radius: 4px;
+    border: 1px white solid;
+}
+
+form input {
+    background: transparent;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+form button {
+    font-weight: bold;
+}
+
+section.form {
+    transition: all 400ms;
+}
+/* funcionalidades javascript*/
+section.form.hide {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -50px;
+}
+
+/***************************************************
+                    FOOTER
+***************************************************/
+footer {
+    width: 100%;
+    margin-top: 18px;
+    padding: 16px;
+    border-top: 1px #eee solid;
+}
+
+footer a {
+    color: #ff4f4f;
+    text-decoration: none;
+    outline: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

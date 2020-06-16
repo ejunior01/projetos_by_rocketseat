@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% set title_name = "Ideias - Casa Criativa" %}
+{% set bodyid = "page-ideias" %}
+
+{% block content %}
+    <header>
+        <a href="./">
+            <img src="./img/logo.png" alt="Imagem da Logomarca Casa Criativa">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="./">Início</a></li>
+                <li><a href="#" onclick="onOff()" class="button">Nova Ideia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="title">
+        <p>em exibição</p>
+        <h1>Ideias</h1>
+    </section>
+    <main>
+        <section id="ideas">
+        <!-----------All Ideas------------->
+        {% include "all_ideias.html" %}
+        </section>
+    </main>
+    <footer>
+        Challenge by <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+        Coded by <a href="https://github.com/ejunior01" target="_blank">Junior Santos</a>
+    </footer>
+{% endblock %}

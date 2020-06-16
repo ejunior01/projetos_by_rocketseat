@@ -1,0 +1,338 @@
+
+/* STYLE GLOBAIS
+****************************************************/
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #e5e5e5;
+    color: #252b2b;
+    
+}
+
+body.hidescroll {
+    overflow: hidden;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+a {
+    color: #ff5e84;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #ff5e84;
+    box-shadow: 0px 8px 16px #ff5eb432;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 400ms;
+}
+.button:hover {
+    background-color: #0984e3;
+    text-decoration: none;
+}
+
+
+/* STYLE CONTAINER
+****************************************************/
+#container {
+    width: 85%;
+    max-width: 990px;
+    margin: 40px auto 0;
+    display: flex;
+}
+
+/* STYLE INTRO
+****************************************************/
+#intro {
+    width: 300px;
+    margin-right: 60px;
+}
+main {
+    margin: 32px 0;
+}
+#button {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+button {
+    background: none;
+    color: #ff5e84;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 32px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+footer a {
+    opacity: 0.7;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+
+/* STYLE LAST-IDEIAS
+****************************************************/
+.idea{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+    box-sizing: border-box;
+}
+.idea img {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    align-self: center;
+}
+.idea h3 {
+    margin: 5px 0;
+}
+.idea p {
+    margin: 5px 0;
+    color: #777;
+}
+.idea .description {
+    margin: 5px 0 5px;
+}
+
+
+/* STYLE MODAL
+****************************************************/
+#modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ff5e84;
+    transition: all 400ms;
+}
+
+#modal.addscroll {
+    overflow: auto;
+}
+
+#modal .content {
+    margin-top: 25px;
+    color: #fff;
+}
+#modal .content h1 {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+#modal form {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.content form div:nth-child(3),
+.content form div:nth-child(4),
+.content form div:nth-child(5) {
+    grid-column: span 2;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(141, 25, 52, 0.5);
+    font-size: 14px;
+    font-family: "Montserrat";
+    outline: none;
+    box-sizing: border-box;
+}
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+}
+form a {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: end;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffffff22;
+    color: #fff;
+    transition: 400ms;
+}
+form a:hover {
+    background-color: #fff;
+    color: #ff5e84;
+    text-decoration: none;
+}
+form button {
+    background-color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    grid-column: 2;
+    justify-self: end;
+    transition: 400ms;
+}
+form button:hover {
+    background-color: #0984e3;
+    color: #fff;
+    text-decoration: none;
+}
+
+#modal.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* STYLE IDEIAS
+****************************************************/
+#page-ideias #container {
+    display: block;
+}
+#page-ideias header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-ideias nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#page-ideias ul li {
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+#page-ideias ul li a {
+    color: #252b2b;
+}
+
+#page-ideias ul li a.button {
+    color: #fff;
+}
+
+#page-ideias ul li:last-child {
+    margin: 0;
+}
+
+section#title {
+    text-align: center;
+}
+section#title p {
+    opacity: 0.7;
+    margin: 0;
+}
+section#title h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+section#ideas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+section#ideas .idea {
+    margin-bottom: 5px;
+}
+section#ideas {
+    margin: 0;
+}
+
+section#title,
+section#ideas,
+footer {
+    margin-top: 32px;
+}
+
+/* STYLE IDEIAS MOBILE
+****************************************************/
+@media only screen and (max-width:600px) {
+    #page-ideias #container {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 0;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #page-ideias header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page-ideias header nav {
+        margin-top: 10px;
+    }
+    #page-ideias ul li{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    #page-ideias header .button {
+        width: 120px;
+        height: 40px;
+    }
+    #page-ideias #container main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section#ideas {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#ideas .idea{
+        width: 100%;
+        padding: 20px;
+    }

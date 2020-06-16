@@ -1,0 +1,100 @@
+<h1 align="center">
+    <img width="300px" alt="Logo Casa Criativa" src="./public/img/logo.png" />
+</h1>
+<p align="center">
+<a href="https://rocketseat.com.br">
+	<img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
+</a>
+<p/>
+
+------
+
+### :house: Descrição do Projeto
+
+Projeto desenvolvido através do WorkshopDev Especial que foi realizado pela [Rocketseat](https://rocketseat.com.br/).
+
+Onde o instrutor [Mayk Brito](https://github.com/maykbrito) nos ensina a desenvolver uma aplicação utilizando tecnologias como Node.js, Express, Nunjucks e Sqlite3.
+
+A aplicação **"Casa Criativa: Ideias para a crise"**, tem como objetivo inserir e armazenar ideias de atividades que podem ser realizadas durante a quarentena do COVID-19.
+
+------
+
+### :house: Funcionalidades
+
+:trophy: Cadastramento de Informações (Ideias)
+
+:trophy: Visualizar as informações cadastradas (ideias)
+
+------
+
+<h3 align="center">
+    Layout da aplicação
+</h3>
+
+------
+
+#### :computer: Tela Inicial
+
+<h4 align="center">
+    <img src="./design/layout_home.png"/>
+</h4>
+
+------
+
+#### :computer: Tela de Ideias cadastradas
+
+<h4 align="center">
+    <img src="./design/layout_ideias.png"/>
+</h4>
+
+------
+
+#### :computer: Tela de cadastro de novas ideias
+
+<h4 align="center">
+    <img src="./design/layout_add_ideias.png"/>
+</h4>
+
+------
+
+### :house: Dependências
+
+:vertical_traffic_light: [Node.js](https://nodejs.org/en/)
+
+:vertical_traffic_light: [express](https://expressjs.com/pt-br/)
+
+:vertical_traffic_light: [nunjucks](https://mozilla.github.io/nunjucks/)
+
+:vertical_traffic_light: [sqlite3](https://www.sqlite.org/index.html)
+
+:vertical_traffic_light: [nodemon](https://www.npmjs.com/package/nodemon)
+
+-----
+
+### :house: Banco de Dados
+
+Foi utilizando o SQLITE3 para gerenciar o banco de Dados. Abaixo descrição da Estrutura da tabela **ideias** no banco de dados.
+
+| id | image | title | category | description |link|
+| --- | --- | --- | --- | --- | --- |
+|INTEGER PRIMARY KEY AUTOINCREMENT| text | text | text | text | text |
+
+------
+#### :house: Tarefas em aberto:
+- [ ] Adaptar a **Responsividade** do site.
+
+- [ ] Realizar alterações nas informações cadastradas.
+
+- [ ] Deletar informações cadastradas.
+
+### :house: Status do Projeto: Em desenvolvimento :construction:
+------
+
+### :pencil: Licença
+
+<p align="center">
+	Copyright (c) 2020 Edvan Ribeiro
+    <br/>
+    Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/ejunior01/casaCriativa/blob/master/LICENSE">LICENSE</a> para mais detalhes.
+</p>
+

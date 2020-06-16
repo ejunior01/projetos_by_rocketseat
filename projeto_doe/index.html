@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+    <title>Doe sangue! Doe vida</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo campanha DOE" title="DOE Sangue, Salve Vidas!">
+            </div>
+            <div class="info">
+                <h1>A sua doação importa</h1>
+                <p>Até 3 vidas com 1 doação</p>
+                <P>Mais de 38.000 doações são necessárias todos os dias</P>
+                <p>Apenas 1,9% da população brasileria, doa sangue.</p>
+            </div>
+            <div class="cadastro">
+                <button>Quero ajudar</button>
+            </div>
+        </header>
+        <section class="form hide">
+            <h2>Entre na lista de doadores</h2>
+            <form action="/" method="POST">
+            <input
+            type="text"
+            name="name"
+            placeholder="Nome Completo">
+            <input
+            type="text"
+            name="email"
+            placeholder="Email">
+            <input
+            type="text"
+            name="blood"
+            placeholder="Tipo sanguíneo">
+            <button>Quero ajudar</button>
+            </form>
+        </section>
+        <main>
+            <h2>Últimos <span>doadores</span></h2>
+            <section class="donors">
+                {% for donor in donors %}
+
+                <div class="donor">
+                    <div class="blood"> {{donor.blood}} </div>
+                    <p> {{donor.name}} </p>
+                </div>
+
+                {% endfor %}
+            </section>
+        </main>
+        <footer>
+            Project by <a href="https://rocketseat.com.br/">Rocketseat</a>. Coded by <a href="https://github.com/ejunior01">Junior Santos</a>.
+        </footer>
+    </div>
+    <script src="./js/scripts.js">
+    </script>
+</body>
+</html>

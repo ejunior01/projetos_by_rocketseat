@@ -1,0 +1,27 @@
+{
+  "name": "ecoleta_nlw",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido atráves do Next Level Week by Rocketseat",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejunior01/ecoleta_nlw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejunior01/ecoleta_nlw/issues"
+  },
+  "homepage": "https://github.com/ejunior01/ecoleta_nlw#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  }
+}
