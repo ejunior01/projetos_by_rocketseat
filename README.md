@@ -18,7 +18,7 @@ Repositório dos projetos desenvolvidos através de conteúdos do canal da Rocke
 
 *:memo: Descrição do Projeto*
 
-O projeto desenvolvido foi o site "Casa Criativa: Ideias para a crise", que tem como objetivo inserir e armazenar ideias de atividades, que podem ser realizadas durante a quarentena do COVID-19.
+O projeto desenvolvido foi o site **Casa Criativa: Ideias para a crise**, que tem como objetivo inserir e armazenar ideias de atividades, que podem ser realizadas durante a quarentena do COVID-19.
 
 
 ---
@@ -27,7 +27,7 @@ O projeto desenvolvido foi o site "Casa Criativa: Ideias para a crise", que tem 
 
 *:memo: Descrição do Projeto*
 
-O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue, e armazenar em uma base de dados para consultas futuras.
+O projeto **DOE**, tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue, e armazenar em uma base de dados para consultas futuras.
 
 
 ---
