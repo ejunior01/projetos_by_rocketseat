@@ -15,7 +15,7 @@ Projeto desenvolvido através do **Next Level Week** by  [Rocketseat](https://ro
 
 Projeto foi desenvolvido com a instrução de [Mayk Brito](https://github.com/maykbrito), onde foi ensina a desenvolver uma aplicação com  Frontend e Backend. Utilizando tecnologias no Backend como Node.js, Express, Nunjucks e Sqlite3, e no Frontend HTML, CSS e JavaScript.
 
-A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um local para busca de empresas que coletem resíduos recicláveis e que precisam de descarte em locais próprios. E onde empresas de coletas de resíduos através do site realizem cadastro.
+A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um local para busca de empresas que coletem resíduos recicláveis, e que precisam de descarte em locais próprios. E onde essas empresas de coletas de resíduos, através do site irão realizar o cadastro.
 
 Foi utilizado no projeto a API do [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)  para popular os dados referentes a Estados e Cidades do Brasil.
 
