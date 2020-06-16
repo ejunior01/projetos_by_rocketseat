@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
   <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
   </a>
 <p/>
 
@@ -15,7 +15,7 @@ Projeto desenvolvido através da 3º edição da MaratonaDev, que foi realizado 
 
 Onde o instrutor nos ensina a desenvolver uma aplicação completa com Backend e Frontend, utilizando tecnologias  no Backend como Node.js, Express, Nunjucks e PostegresSQL.
 
-Essa aplicação se chama **DOE**, e tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue.
+O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue, e armazenar em uma base de dados para consultas futuras.
 
 ------
 
