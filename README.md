@@ -9,7 +9,7 @@
 
 ## :rocket: INTRODUÇÃO
 
-Repositório dos projetos desenvolvidos através de conteúdos do canal da Rocketseat no Youtube, e curso realizados na plataforma da Rocketseat.
+Esse repositório tem como objetivo listar e agrupar os projetos que desenvolvi através de conteúdos do canal da Rocketseat no Youtube, e curso realizados na plataforma da Rocketseat.
 
 
 ## :rocket: LISTA DE PROJETOS
