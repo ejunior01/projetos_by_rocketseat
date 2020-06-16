@@ -9,7 +9,7 @@
 
 ## :rocket: INTRODUÇÃO
 
-Repositório dos projetos desenvolvidos através de conteúdos do canal do Youtube da Rocketseat, e curso realizados na Rocketseat.
+Repositório dos projetos desenvolvidos através de conteúdos do canal da Rocketseat no Youtube, e curso realizados na plataforma da Rocketseat.
 
 
 ## :rocket: LISTA DE PROJETOS
@@ -18,7 +18,7 @@ Repositório dos projetos desenvolvidos através de conteúdos do canal do Youtu
 
 *:memo: Descrição do Projeto*
 
-O projeto desenvolvido foi o site "Casa Criativa: Ideias para a crise", que tem como objetivo inserir e armazenar ideias de atividades que podem ser realizadas durante a quarentena do COVID-19.
+O projeto desenvolvido foi o site "Casa Criativa: Ideias para a crise", que tem como objetivo inserir e armazenar ideias de atividades, que podem ser realizadas durante a quarentena do COVID-19.
 
 
 ---
@@ -27,7 +27,7 @@ O projeto desenvolvido foi o site "Casa Criativa: Ideias para a crise", que tem 
 
 *:memo: Descrição do Projeto*
 
-O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue e armazenar em uma base de dados.
+O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue, e armazenar em uma base de dados para consultas futuras.
 
 
 ---
@@ -37,7 +37,7 @@ O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que de
 
 *:memo: Descrição do Projeto*
 
-A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um local para busca de empresas que coletem resíduos recicláveis e que precisam de descarte em locais próprios. E onde essas empresas de coletas de resíduos através do site irão realizar o cadastro.
+A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um local para busca de empresas que coletem resíduos recicláveis, e que precisam de descarte em locais próprios. E onde essas empresas de coletas de resíduos, através do site irão realizar o cadastro.
 
 ---
 
