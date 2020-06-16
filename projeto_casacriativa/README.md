@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
 <a href="https://rocketseat.com.br">
-	<img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
+	<img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
 </a>
 <p/>
 
@@ -15,7 +15,7 @@ Projeto desenvolvido através do WorkshopDev Especial que foi realizado pela [Ro
 
 Onde o instrutor [Mayk Brito](https://github.com/maykbrito) nos ensina a desenvolver uma aplicação utilizando tecnologias como Node.js, Express, Nunjucks e Sqlite3.
 
-A aplicação **"Casa Criativa: Ideias para a crise"**, tem como objetivo inserir e armazenar ideias de atividades que podem ser realizadas durante a quarentena do COVID-19.
+O projeto desenvolvido foi o site Casa Criativa: Ideias para a crise, que tem como objetivo inserir e armazenar ideias de atividades, que podem ser realizadas durante a quarentena do COVID-19.
 
 ------
 
