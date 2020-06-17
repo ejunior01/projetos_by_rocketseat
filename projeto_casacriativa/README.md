@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
 <a href="https://rocketseat.com.br">
-	<img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
+	<img alt="Made by Junior Santos" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
 </a>
 <p/>
 
@@ -95,6 +95,6 @@ Foi utilizando o SQLITE3 para gerenciar o banco de Dados. Abaixo descrição da 
 <p align="center">
 	Copyright (c) 2020 Edvan Ribeiro
     <br/>
-    Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/ejunior01/casaCriativa/blob/master/LICENSE">LICENSE</a> para mais detalhes.
+    Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/ejunior01/projetos_by_rocketseat/blob/master/LICENSE">LICENSE</a> para mais detalhes.
 </p>
 
