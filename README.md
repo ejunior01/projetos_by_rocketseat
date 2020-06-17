@@ -2,7 +2,6 @@
     <img width="100%" alt="Logo Casa Criativa" src="./design/rocketseat.png" />
 </p>
 <p align="center">
-<a href="https://rocketseat.com.br">
 <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
 </a>
 <p/>
