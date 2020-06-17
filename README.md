@@ -2,6 +2,8 @@
     <img width="100%" alt="Logo Casa Criativa" src="./design/rocketseat.png" />
 </p>
 <p align="center">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ejunior01/projetos_by_rocketseat">
+<img  alt="licença" src="https://img.shields.io/github/license/ejunior01/projetos_by_rocketseat" />
 <img alt="Made by Junior Santos" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
 <p/>
 
