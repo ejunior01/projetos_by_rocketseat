@@ -47,5 +47,5 @@ A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um loc
 <p align="center">
 	Copyright (c) 2020 Edvan Ribeiro
     <br/>
-    Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/ejunior01/ecoleta_nlw/blob/master/LICENSE">LICENSE</a> para mais detalhes.
+    Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/ejunior01/projetos_by_rocketseat/blob/master/LICENSE">LICENSE</a> para mais detalhes.
 </p>
