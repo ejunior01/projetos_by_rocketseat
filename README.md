@@ -3,7 +3,6 @@
 </p>
 <p align="center">
 <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
-</a>
 <p/>
 
 ## :rocket: INTRODUÇÃO
