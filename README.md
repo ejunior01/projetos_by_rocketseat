@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="100%" alt="Logo Casa Criativa" src="./design/rocketseat.png" />
+    <img width="100%" src="./design/rocketseat.png" />
 </p>
 <p align="center">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ejunior01/projetos_by_rocketseat">
