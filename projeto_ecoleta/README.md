@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="300px" alt="Logo Casa Criativa" src="./public/assets/logo.svg" />
+    <img width="300px" alt="Logo Ecoleta" src="./public/assets/logo.svg" />
 </h1>
 <p align="center">
 <a href="https://rocketseat.com.br">
