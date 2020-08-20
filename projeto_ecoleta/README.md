@@ -83,7 +83,7 @@ Foi utilizando o SQLITE3 para gerenciar o banco de Dados. Abaixo descrição da 
 
 ------
 
-#### Tarefas em aberto:
+#### Atualizações:
 
 - [ ] Adaptar a **Responsividade** do site.
 - [ ] Adicionar busca por Estado.
