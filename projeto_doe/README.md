@@ -93,7 +93,7 @@ ALTER TABLE public.donors
 ```
 
 ------
-#### Tarefas em aberto:
+#### Atualizações:
 
 - [ ] Adaptar a **Responsividade** do site.
 
