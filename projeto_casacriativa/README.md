@@ -80,7 +80,7 @@ Foi utilizando o SQLITE3 para gerenciar o banco de Dados. Abaixo descrição da 
 |INTEGER PRIMARY KEY AUTOINCREMENT| text | text | text | text | text |
 
 ------
-#### :house: Tarefas em aberto:
+#### :house: Atualizações:
 - [ ] Adaptar a **Responsividade** do site.
 
 - [ ] Realizar alterações nas informações cadastradas.
