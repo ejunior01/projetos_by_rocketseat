@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="300px" alt="Logo Ecoleta" src="./public/assets/logo.svg" />
+    <img width="300px" alt="Logo Proffy" src="./public/assets/logo.svg" />
 </h1>
 <p align="center">
 <a href="https://rocketseat.com.br">
@@ -13,13 +13,17 @@
 
 Projeto desenvolvido através do **Next Level Week 2**  by  [Rocketseat](https://rocketseat.com.br/) entre os dias 03/08 e 07/08. 
 
+Projeto foi desenvolvido com a instrução de Mayk Brito, onde foi ensina a desenvolver uma aplicação com Frontend e Backend. Utilizando tecnologias no Backend como Node.js, Express, Nunjucks e SQLITE-async, e no Frontend HTML, CSS e JavaScript.
+
+A aplicação construída foi o Site **Proffy**, onde a proposta definida seria um local para alunos buscarem professores que estejam oferecendo aulas  particulares e os professores se cadastrando para oferecer aulas dentro de períodos estabelecidos.
+
 ------
 
-###  :mortar_board: ​Funcionalidades do Site Ecoleta
+###  :mortar_board: Funcionalidades do Site Ecoleta
 
-:trophy: Cadastramento de Professores para dar aulas
+:trophy: Cadastro de Professores para dar aulas, com informações de contato, preço, matéria e dias e horários disponíveis.
 
-:trophy: Buscas de por aulas disponíveis. 
+:trophy: Buscas de aulas disponíveis em determinada matéria. 
 
 ----
 
@@ -31,43 +35,25 @@ Projeto desenvolvido através do **Next Level Week 2**  by  [Rocketseat](https:/
 
 #### :computer: Tela Inicial
 
-<h4 align="center">
-    <img src="./public/design/screencapture-home.png"/>
-</h4>
-
 ------
 
 #### :computer: Tela Aulas
 
-<h4 align="center">
-    <img src="./public/design/screencapture-create-point.png"/>
-</h4>
 
 ------
 
 #### :computer: Tela Cadastro de Proffys
 
-<h4 align="center">
-    <img src="./public/design/screencapture-search.png"/>
-</h4>
 
 ------
 
 ### :mortar_board: Dependências
 
-:vertical_traffic_light: [Node.js](https://nodejs.org/en/)
-
-:vertical_traffic_light: [Express](https://expressjs.com/pt-br/)
-
-:vertical_traffic_light: [Nunjucks](https://mozilla.github.io/nunjucks/)
-
-:vertical_traffic_light: [Sqlite-async](https://www.sqlite.org/index.html)
-
-:vertical_traffic_light: [Nodemon](https://www.npmjs.com/package/nodemon)
+:vertical_traffic_light: [Node.js](https://nodejs.org/en/) - Express: ^4.17.1 - Nunjucks: ^3.2.2 - Sqlite-async: ^1.1.0
 
 ------
 
-###  :mortar_board: ​Banco de Dados
+###  :mortar_board: Banco de Dados
 
 Foi utilizando o SQLITE-async para gerenciar o banco de Dados, a base de dados é crianda com a execução do arquivo **db.js**. Abaixo descrição da Estrutura da tabela **proffys, classes e class_schedule** no banco de dados.
 
@@ -93,10 +79,13 @@ Foi utilizando o SQLITE-async para gerenciar o banco de Dados, a base de dados �
 
 #### Atualizações:
 
-- [ ] A
+Foi feita uma proposto de uma versão do Proffy 2.0, onde a mesma inclui nessa versão funções como: autenticação de usuários, recuperação de senhas, perfil do proffy, salvar seus proffys favoritos e etc. Ainda não dei inicio na construção dessa versão..
+
+link da proposta: [:mortar_board: Proffy 2.0](https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970)
 
 
 ### :mortar_board: Status do Projeto: Em desenvolvimento :construction:
+
 ------
 
 ### :pencil: Licença
