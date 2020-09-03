@@ -34,7 +34,7 @@ Esse repositório tem como objetivo listar e agrupar os projetos que desenvolvi 
 
 ### [:mortar_board: Projeto Proffy](https://github.com/ejunior01/projetos_by_rocketseat/tree/master/projeto_proffy)
 
-**Descrição do Projeto**: A aplicação construída foi o Site **Proffy**, onde a proposta definida seria um local para alunos buscarem professores que estejam oferecendo aulas  particulares e os professores se cadastrando para oferecer aulas dentro de períodos estabelecidos. 
+**Descrição do Projeto**: A aplicação construída foi o Site **Proffy**, onde a proposta definida seria um local para alunos buscarem professores que estejam oferecendo aulas  particulares, e os professores possam se cadastrar para oferecer aulas dentro de períodos estabelecidos. 
 
 ---
 
