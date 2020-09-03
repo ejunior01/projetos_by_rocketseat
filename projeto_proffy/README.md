@@ -49,7 +49,7 @@ A aplicação construída foi o Site **Proffy**, onde a proposta definida seria 
 
 ### :mortar_board: Dependências
 
-:vertical_traffic_light: [Node.js](https://nodejs.org/en/) - Express: ^4.17.1 - Nunjucks: ^3.2.2 - Sqlite-async: ^1.1.0
+:vertical_traffic_light: Node.js: ^12.18.0 - Express: ^4.17.1 - Nunjucks: ^3.2.2 - Sqlite-async: ^1.1.0
 
 ------
 
@@ -79,10 +79,7 @@ Foi utilizando o SQLITE-async para gerenciar o banco de Dados, a base de dados �
 
 #### Atualizações:
 
-Foi feita uma proposto de uma versão do Proffy 2.0, onde a mesma inclui nessa versão funções como: autenticação de usuários, recuperação de senhas, perfil do proffy, salvar seus proffys favoritos e etc. Ainda não dei inicio na construção dessa versão..
-
-link da proposta: [:mortar_board: Proffy 2.0](https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970)
-
+Foi feita uma proposto de uma versão do Proffy 2.0, onde a mesma inclui funções como: autenticação de usuários, recuperação de senhas, perfil do proffy, salvar seus proffys favoritos e etc. Ainda não dei inicio na construção dessa versão. link da proposta: [:mortar_board: Proffy 2.0](https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970)
 
 ### :mortar_board: Status do Projeto: Em desenvolvimento :construction:
 
