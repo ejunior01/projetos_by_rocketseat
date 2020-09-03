@@ -13,7 +13,7 @@
 
 Projeto desenvolvido através da 3º edição da MaratonaDev, que foi realizado pela [Rocketseat](https://rocketseat.com.br/).
 
-Onde o instrutor nos ensina a desenvolver uma aplicação completa com Backend e Frontend, utilizando tecnologias  no Backend como Node.js, Express, Nunjucks e PostegresSQL.
+Onde o instrutor nos ensinou a desenvolver uma aplicação com Backend e Frontend, utilizando tecnologias  no Backend como Node.js, Express, Nunjucks e PostegresSQL.
 
 O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que deseja realizar doações de sangue, e armazenar em uma base de dados para consultas futuras.
 
@@ -42,15 +42,7 @@ O projeto DOE, tem como objetivo realizar o cadastramento de voluntários que de
 ------
 ### 🩸 Dependências
 
-:vertical_traffic_light: [Node.js](https://nodejs.org/en/)
-
-:vertical_traffic_light: [express](https://expressjs.com/pt-br/)
-
-:vertical_traffic_light: [nunjucks](https://mozilla.github.io/nunjucks/)
-
-:vertical_traffic_light: [sqlite3](https://www.sqlite.org/index.html)
-
-:vertical_traffic_light: [nodemon](https://www.npmjs.com/package/nodemon)
+:vertical_traffic_light: Node.js: ^v12.18.0 - Express: ^4.17.1 - Nunjucks: ^3.2.1 - Pg: ^8.2.1
 
 ---
 
@@ -93,11 +85,12 @@ ALTER TABLE public.donors
 ```
 
 ------
-#### Atualizações:
+#### Atualizações pessoais:
 
 - [ ] Adaptar a **Responsividade** do site.
 
 - [ ] Usar lista de seleção para tipos sanguíneos.
+
 
 ### 🩸 Status do Projeto: Concluído :construction:
 
