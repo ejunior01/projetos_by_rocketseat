@@ -15,7 +15,7 @@ Projeto desenvolvido através do **Next Level Week 2**  by  [Rocketseat](https:/
 
 Projeto foi desenvolvido com a instrução de Mayk Brito, onde foi ensina a desenvolver uma aplicação com Frontend e Backend. Utilizando tecnologias no Backend como Node.js, Express, Nunjucks e SQLITE-async, e no Frontend HTML, CSS e JavaScript.
 
-A aplicação construída foi o Site **Proffy**, onde a proposta definida seria um local para alunos buscarem professores que estejam oferecendo aulas  particulares e os professores se cadastrando para oferecer aulas dentro de períodos estabelecidos.
+A aplicação construída foi o Site **Proffy**, onde a proposta definida seria um local para alunos buscarem professores que estejam oferecendo aulas  particulares, e os professores possam se cadastrar para oferecer aulas dentro de períodos estabelecidos. 
 
 ------
 
