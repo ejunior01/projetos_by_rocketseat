@@ -13,11 +13,11 @@
 
 Projeto desenvolvido através do **Next Level Week** by  [Rocketseat](https://rocketseat.com.br/) entre os dias 01/06 e 05/06. 
 
-Projeto foi desenvolvido com a instrução de [Mayk Brito](https://github.com/maykbrito), onde foi ensina a desenvolver uma aplicação com  Frontend e Backend. Utilizando tecnologias no Backend como Node.js, Express, Nunjucks e Sqlite3, e no Frontend HTML, CSS e JavaScript.
+Projeto foi desenvolvido com a instrução de [Mayk Brito](https://github.com/maykbrito), onde foi ensinado a desenvolver uma aplicação com  Frontend e Backend. Utilizando tecnologias no Backend como Node.js, Express, Nunjucks e Sqlite3, e no Frontend HTML, CSS e JavaScript.
 
 A aplicação construída foi o Site **Ecoleta**, com o princípio de ser um local para busca de empresas que coletem resíduos recicláveis, e que precisam de descarte em locais próprios. E onde essas empresas de coletas de resíduos, através do site irão realizar o cadastro.
 
-Foi utilizado no projeto a API do [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)  para popular os dados referentes a Estados e Cidades do Brasil.
+Foi utilizado no projeto a API do [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)  para buscar os dados referentes a Estados e Cidades do Brasil.
 
 ------
 
@@ -61,15 +61,7 @@ Foi utilizado no projeto a API do [IBGE](https://servicodados.ibge.gov.br/api/do
 
 ### :recycle: Dependências
 
-:vertical_traffic_light: [Node.js](https://nodejs.org/en/)
-
-:vertical_traffic_light: [express](https://expressjs.com/pt-br/)
-
-:vertical_traffic_light: [nunjucks](https://mozilla.github.io/nunjucks/)
-
-:vertical_traffic_light: [sqlite3](https://www.sqlite.org/index.html)
-
-:vertical_traffic_light: [nodemon](https://www.npmjs.com/package/nodemon)
+:vertical_traffic_light: Node.js: ^12.18.0 - Express: ^4.17.1 - Nunjucks: ^3.2.1 - Sqlite3: ^4.2.0
 
 ------
 
@@ -83,7 +75,7 @@ Foi utilizando o SQLITE3 para gerenciar o banco de Dados. Abaixo descrição da 
 
 ------
 
-#### Atualizações:
+#### Atualizações pessoais:
 
 - [ ] Adaptar a **Responsividade** do site.
 - [ ] Adicionar busca por Estado.
