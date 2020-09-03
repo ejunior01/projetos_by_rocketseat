@@ -13,7 +13,7 @@
 
 Projeto desenvolvido através do WorkshopDev Especial que foi realizado pela [Rocketseat](https://rocketseat.com.br/).
 
-Onde o instrutor [Mayk Brito](https://github.com/maykbrito) nos ensina a desenvolver uma aplicação utilizando tecnologias como Node.js, Express, Nunjucks e Sqlite3.
+Onde o instrutor [Mayk Brito](https://github.com/maykbrito) ensinou a desenvolver uma aplicação utilizando tecnologias como Node.js, Express, Nunjucks e Sqlite3.
 
 O projeto desenvolvido foi o site Casa Criativa: Ideias para a crise, que tem como objetivo inserir e armazenar ideias de atividades, que podem ser realizadas durante a quarentena do COVID-19.
 
@@ -59,15 +59,7 @@ O projeto desenvolvido foi o site Casa Criativa: Ideias para a crise, que tem co
 
 ### :house: Dependências
 
-:vertical_traffic_light: [Node.js](https://nodejs.org/en/)
-
-:vertical_traffic_light: [express](https://expressjs.com/pt-br/)
-
-:vertical_traffic_light: [nunjucks](https://mozilla.github.io/nunjucks/)
-
-:vertical_traffic_light: [sqlite3](https://www.sqlite.org/index.html)
-
-:vertical_traffic_light: [nodemon](https://www.npmjs.com/package/nodemon)
+:vertical_traffic_light: Node.js: ^v12.18.0 - Eexpress: ^4.17.1 - Nunjucks: ^3.2.1 - Sqlite3: ^4.2.0
 
 -----
 
@@ -80,7 +72,8 @@ Foi utilizando o SQLITE3 para gerenciar o banco de Dados. Abaixo descrição da 
 |INTEGER PRIMARY KEY AUTOINCREMENT| text | text | text | text | text |
 
 ------
-#### :house: Atualizações:
+#### :house: Atualizações pessoais:
+
 - [ ] Adaptar a **Responsividade** do site.
 
 - [ ] Realizar alterações nas informações cadastradas.
@@ -88,6 +81,7 @@ Foi utilizando o SQLITE3 para gerenciar o banco de Dados. Abaixo descrição da 
 - [ ] Deletar informações cadastradas.
 
 ### :house: Status do Projeto: Em desenvolvimento :construction:
+
 ------
 
 ### :pencil: Licença
