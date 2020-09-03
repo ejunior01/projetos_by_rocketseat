@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="300px" alt="Logo Proffy" src="./public/assets/logo.svg" />
+    <img width="600px" alt="Logo Proffy" src="./design/logo.svg" />
 </h1>
 <p align="center">
 <a href="https://rocketseat.com.br">
@@ -35,15 +35,26 @@ A aplicação construída foi o Site **Proffy**, onde a proposta definida seria 
 
 #### :computer: Tela Inicial
 
+<h4 align="center">
+    <img src="./design/Home.png"/>
+</h4>
+
 ------
 
-#### :computer: Tela Aulas
+#### :computer: Tela de Busca de Proffys
+
+<h4 align="center">
+    <img src="./design/Listagem.png"/>
+</h4>
 
 
 ------
 
 #### :computer: Tela Cadastro de Proffys
 
+<h4 align="center">
+    <img src="./design/Formulário.png"/>
+</h4>
 
 ------
 
