@@ -20,9 +20,8 @@ db.serialize(function() {
     }) */
 
     // Consultar dados
-    db.all(`SELECT * FROM ideas`, function(err, rows) { if (err) return console.log(err)
-        console.log(rows)
-    })
+    // db.all(`SELECT * FROM ideas`, function(err, rows) { if (err) return console.log(err)
+    // })
 
 })
 

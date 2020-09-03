@@ -79,4 +79,6 @@ server.post("/", function(req, res) {
 })
 
 // liguei o servidor na porta 3000
-server.listen(3000)
+server.listen(3000, () => {
+   console.log("Server is running")
+})
