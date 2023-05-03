@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --twitter-blue: #1da1f2;
+    --dark-bg:#121214;
+    --primary-font: #FFFFFF;
+    --default-border: 1px solid #2f3336;
+}
+
+
+body {
+    color: var(--primary-font);
+    background-color: var(--dark-bg);
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font: 400 1rem Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    color: #E1E1E6
+}

@@ -1,0 +1,35 @@
+.logout {
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logout .profile-picture {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 999px;
+}
+
+.logout .profile-details {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.3rem;
+}
+
+.logout .profile-details .name {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+.logout .profile-details .name svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+.logout .profile-details .username {
+    color: #71767b
+}
+

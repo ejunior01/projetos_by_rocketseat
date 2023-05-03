@@ -1,0 +1,13 @@
+.layout {
+    margin:  0 auto;
+    width: 90vw;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+}
+
+.content {
+    border-left: var(--default-border);
+    border-right: var(--default-border);
+}

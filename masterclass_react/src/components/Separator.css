@@ -1,0 +1,6 @@
+.separator {
+    background-color: #202020;
+    height: 1rem;
+    border-top: var(--default-border);
+    border-bottom: var(--default-border);
+}
