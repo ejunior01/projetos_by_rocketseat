@@ -1,4 +1,7 @@
-module.exports = async function (db, { proffyValue, classeValue, classScheduleValues }) {
+export default async function (
+  db,
+  { proffyValue, classeValue, classScheduleValues }
+) {
   // inserir dados na tabela de proffys
   const insertedProffy = await db.run(`
         INSERT INTO proffys (
@@ -55,5 +58,4 @@ module.exports = async function (db, { proffyValue, classeValue, classScheduleVa
 
   // Executar todos os db.runs()
   await Promise.all(insertedAllClassScheduleValues);
-  
-};
+}

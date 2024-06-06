@@ -31,9 +31,4 @@ function convertHoursToMinutes(time) {
   return Number(hour * 60 + minutes);
 }
 
-module.exports = {
-  subjects,
-  weekdays,
-  getSubject,
-  convertHoursToMinutes,
-};
+export { subjects, weekdays, getSubject, convertHoursToMinutes };

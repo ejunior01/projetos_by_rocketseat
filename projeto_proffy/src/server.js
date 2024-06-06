@@ -1,7 +1,6 @@
-const express = require("express");
-const nunjucks = require("nunjucks");
-const {pageLanding, pageStudy, pageGiveClass,saveClasses
-} = require("./pages");
+import express from "express";
+import nunjucks from "nunjucks";
+import { pageGiveClass, pageLanding, pageStudy, saveClasses } from "./pages.js";
 
 const server = express();
 
@@ -12,7 +11,7 @@ nunjucks.configure("src/views", {
 });
 
 server
-  .use(express.urlencoded({ extended: true}))
+  .use(express.urlencoded({ extended: true }))
   .use(express.static("public"))
   .set("view engine", "njk")
   .get("/", pageLanding)

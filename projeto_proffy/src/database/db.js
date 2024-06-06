@@ -1,7 +1,8 @@
-const database = require('sqlite-async')
+import { Database as database } from "sqlite-async";
+import path from "path";
 
-function execute(db){
-   return db.exec(`
+function execute(db) {
+  return db.exec(`
         CREATE TABLE IF NOT EXISTS proffys (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT,
@@ -24,7 +25,14 @@ function execute(db){
             time_from INTEGER,
             time_to INTEGER
         );
-    `)
+    `);
 }
 
-module.exports = database.open(__dirname + '/database.sqlite').then(execute)
+const databaseFilename = path.join(
+  path.dirname("."),
+  "src",
+  "database",
+  "db.sqlite"
+);
+
+export default database.open(databaseFilename).then(execute);
